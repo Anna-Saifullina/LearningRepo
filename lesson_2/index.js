@@ -1,5 +1,7 @@
-console.log("Привет, я из NodeJS");
+// console.log("Привет, я из NodeJS");
 
-const userName="Anna";
+// const userName="Anna";
 
-console.log(userName);
+// console.log(userName);
+
+console.log("2">10);
