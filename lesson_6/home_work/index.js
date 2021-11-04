@@ -208,14 +208,33 @@
 // };
 // String.prototype.endsWith (str);
 
+// ИЛИ
+// const str = 'String Random';
+// const subStr = 'Randomsss';
+// String.prototype.endsWith = (str,subStr) => {
+// const findStr = String (str.match(/(\S+)$/g));
+// if (subStr === findStr) {
+//     return true;
+// } else {
+//     return false;
+// }
+// console.log(String.prototype.endsWith (str,subStr);
+
 // 16. Подстрока до/после указанного символа
 // Напишите функцию getSubstr(str, char, pos), которая возвращает часть строки, расположенную после или до указанного символа char в зависимости от параметра pos.
 
-// var str = 'Астрономия — Наука о небесных телах';
+// const str = 'Астрономия — Наука о небесных телах';
 // function getSubstr(str, char, pos) {
-//     return str.substring(char,pos);
+//     if (pos === 'до') {
+//         return str.slice(0, char);
+//     } else if (pos === "после") {
+//         return str.slice(char);
+//     } else {
+//         return "Error";
+//     }
+    
 // };
-// console.log(getSubstr(str, "-", 7));
+// console.log(getSubstr(str, 10, "после"));
 
 // 17. Вставить подстроку в указанную позицию строки
 // Напишите функцию insert(str, substr, pos), которая вставляет подстроку substr в указанную позицию pos строки str. По умолчанию подстрока вставляется в начало строки.
@@ -256,8 +275,8 @@
 // 21. Удалить лишние пробелы из строки
 // Напишите функцию strip(str), которая удаляет все лишние пробелы из строки str.
 
-var str = "    Max is a good      boy     "; 
-function strip(str) {
-    ...ваш код...
-};
+// var str = "    Max is a good      boy     "; 
+// function strip(str) {
+//     ...ваш код...
+// };
 
