@@ -37,6 +37,15 @@
 // }
 // console.log(sumSeven (arr));
 
+/*Решение преподавателя*/
+let arr = [0,1,2,3,4,5,6,7];
+function sumSeven(numbers) {
+    return numbers
+    .map((el) => `(${el}:${7-el})`)
+    .filter((el,i,arr) => i<arr.length/2);
+}
+console.log(sumSeven(arr));
+
 //4. Перед вами переменная, содержащая строку. Напишите код, создащий массив, который будет состоять из первых букв слов строки str.
 
 // var str = "Каждый охотник желает знать, где сидит фазан.";
