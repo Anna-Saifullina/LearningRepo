@@ -228,7 +228,6 @@ class User {
 class Student extends User {
   constructor(name, surname, year) {
     super(name, surname);
-    super.getFullName();
     this.year = year;
   }
   getCourse() {
